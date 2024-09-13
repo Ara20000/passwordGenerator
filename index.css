@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;900&family=Nova+Square&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Noto Sans Traditional Chinese;
+    background-color: #3A4D39;
+}
+
+#body-section {
+   height: 300px;
+   width: 300px;
+   background-color: #F1EFEF;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border-radius: 10px;
+   border-style: none;
+   text-align: center;
+}
+
+#head-section {
+    color: #3A4D39;
+    margin: 15px 15px;
+}
+
+#input-section {
+    margin: 30px 0px 30px 0px;
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+    border: #3A4D39;
+    outline: 0;
+    text-align: center;
+}
+
+#sub-div-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.button-section-class {
+    width: 60%;
+    height: 25px;
+    background-color: #3A4D39;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+}
+
+.icon {
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+
